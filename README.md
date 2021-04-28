@@ -21,9 +21,11 @@ Features divided between groups members as:
 * Link:https://teamcollaboration.herokuapp.com/
 
 (Karanjeet Kaur)
-* Team Notes ( server side completed)
+* Team Notes ( server side and client side completed)
 * Search bar(Server side completed)
-* Project Setting Page(Server side completed)
+* Project Setting Page(Server side and client side completed )
+* Link:https://computercrewa.herokuapp.com/login
+
 
 (Rashed)
 * team todo list with date due with comments (server side complete)
