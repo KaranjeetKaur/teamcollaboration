@@ -15,12 +15,14 @@ import Profile from './components/Profile/Profile';
 import Notification from'./components/ProfileLinks/Notification';
 import Notes from'./components/Notes/NewNote';
 
+
 import MakeProject from './components/MakeProject/MakeProject';
 import TasksGroup from './components/pages/Tasks/TasksGroup';
 import TasksDate from './components/pages/Tasks/TasksDate';
 import Report from './components/pages/Report/Report';
 
 import AllNotes from './components/Notes/AllNotes';
+import EditNote from './components/Notes/EditNote';
 import Settings from './components/ProjectSettings/Setting';
 
 import Invite from './components/Invite/InviteTeams';
@@ -29,6 +31,7 @@ import InviteApi from './components/Invite/InviteApi';
 import Announcementdisplay from './components/Announcements/Announcementdisplay';
 
 import ContactState from './context/contact/ContactState';
+import NoteState from './context/notes/NoteState';
 import EventState from './context/newEvent/EventState';
 import AuthState from './context/auth/AuthState';
 import AlertState from './context/alert/AlertState';
@@ -105,6 +108,7 @@ function App()  {
 
             
               <Route exact path='/AllNotes' component={AllNotes} />
+              <Route exact path='/EditNote/:id' component={EditNote} />
 
             <Route exact path='/Invite' component={Invite} />
             <Route exact path='/InviteApi' component={InviteApi} />

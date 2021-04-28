@@ -25,3 +25,5 @@ export const UPDATE_EVENT = 'UPDATE_EVENT';
 export const FILTER_EVENTS = 'FILTER_EVENTS';
 export const CLEAR_EVENTS = 'CLEAR_EVENTS';
 export const EVENT_ERROR = 'EVENT_ERROR';
+export const UPDATE_NOTE = 'UPDATE_NOTE';
+export const FILTER_NOTES = 'FILTER_NOTES';
